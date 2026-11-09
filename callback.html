@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Đang xác thực...</title>
+</head>
+<body>
+<p>Đang chuyển hướng về công cụ Minh Nhật Edu... Nếu không tự chuyển, <a id="link" href="#">bấm vào đây</a>.</p>
+<script>
+  var target = "http://localhost:53789/" + window.location.search;
+  document.getElementById('link').href = target;
+  window.location.replace(target);
+</script>
+</body>
+</html>
