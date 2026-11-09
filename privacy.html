@@ -1,0 +1,147 @@
+<title>Chính Sách Bảo Mật</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  :root {
+    --bg: #fdfaf4;
+    --surface: #ffffff;
+    --border: #e7ddc9;
+    --fg: #16223a;
+    --muted: #5b6678;
+    --accent: #c9791a;
+    --navy: #102848;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1526;
+      --surface: #161f36;
+      --border: #2a3554;
+      --fg: #eef1f7;
+      --muted: #9aa5bd;
+      --accent: #e3a24a;
+      --navy: #c9d6ef;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1526;
+    --surface: #161f36;
+    --border: #2a3554;
+    --fg: #eef1f7;
+    --muted: #9aa5bd;
+    --accent: #e3a24a;
+    --navy: #c9d6ef;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding-block: 56px 80px;
+  }
+  .eyebrow {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  h1 {
+    font-size: clamp(28px, 5vw, 38px);
+    line-height: 1.15;
+    margin: 10px 0 4px;
+    text-wrap: balance;
+    color: var(--navy);
+  }
+  .meta {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 36px;
+  }
+  section { margin-bottom: 30px; }
+  h2 {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--navy);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+    margin: 0 0 12px;
+  }
+  p, li { font-size: 16.5px; line-height: 1.7; max-width: 65ch; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 15px;
+    color: var(--muted);
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=Inter:wght@400;600;700&display=swap">
+<div class="wrap">
+  <div class="eyebrow">Minh Nhật Edu</div>
+  <h1>Chính Sách Bảo Mật</h1>
+  <div class="meta">Có hiệu lực từ ngày 09/11/2026</div>
+
+  <section>
+    <h2>1. Giới thiệu</h2>
+    <p>Minh Nhật Edu ("chúng tôi") cung cấp nội dung giáo dục (Toán, Văn, Tiếng Anh, Khoa học Tự nhiên Cấp Hai) dưới dạng video bài giảng. Chính sách này mô tả cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu khi dùng công cụ nội bộ để tự động đăng tải video bài giảng lên các nền tảng mạng xã hội, bao gồm TikTok, thông qua API chính thức của từng nền tảng.</p>
+  </section>
+
+  <section>
+    <h2>2. Dữ liệu chúng tôi thu thập</h2>
+    <ul>
+      <li><strong>Thông tin tài khoản nền tảng:</strong> khi kết nối tài khoản TikTok/YouTube/Facebook của Minh Nhật Edu qua đăng nhập OAuth chính thức, chúng tôi nhận mã định danh người dùng, tên hiển thị và ảnh đại diện công khai (theo phạm vi quyền được cấp).</li>
+      <li><strong>Nội dung video:</strong> các video bài giảng do Minh Nhật Edu tự sản xuất, được tải lên nền tảng thông qua API đăng bài chính thức.</li>
+      <li>Chúng tôi <strong>không</strong> thu thập dữ liệu cá nhân của học sinh, phụ huynh hay người xem video.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Mục đích sử dụng</h2>
+    <p>Dữ liệu và quyền truy cập nêu trên chỉ được dùng để tự động hoá việc đăng video bài giảng lên đúng tài khoản/kênh của Minh Nhật Edu, không dùng cho mục đích quảng cáo, bán lại dữ liệu, hay chia sẻ với bên thứ ba ngoài phạm vi cần thiết để vận hành (ví dụ: nhà cung cấp hạ tầng lưu trữ, xử lý video).</p>
+  </section>
+
+  <section>
+    <h2>4. Lưu trữ và bảo mật</h2>
+    <p>Token truy cập (access token) được lưu trữ cục bộ, có mã hoá ở mức hệ điều hành, không được chia sẻ hay đăng công khai. Chúng tôi áp dụng các biện pháp hợp lý để ngăn chặn truy cập trái phép.</p>
+  </section>
+
+  <section>
+    <h2>5. Quyền của bạn</h2>
+    <p>Với tư cách chủ tài khoản nền tảng được kết nối, thầy/cô có thể thu hồi quyền truy cập bất kỳ lúc nào trong phần cài đặt ứng dụng của từng nền tảng (ví dụ: TikTok &gt; Cài đặt &gt; Bảo mật &gt; Ứng dụng được kết nối).</p>
+  </section>
+
+  <section>
+    <h2>6. Liên hệ</h2>
+    <div class="card">
+      Email: <a href="mailto:nguyenmaukhanh@gmail.com">nguyenmaukhanh@gmail.com</a><br>
+      Thương hiệu: Minh Nhật Edu – Hệ thống lớp học online Toán, Văn, Tiếng Anh, KHTN Cấp Hai
+    </div>
+  </section>
+
+  <footer>© 2026 Minh Nhật Edu. Tài liệu này có thể được cập nhật khi dịch vụ thay đổi.</footer>
+</div>
